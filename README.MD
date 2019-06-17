@@ -65,6 +65,23 @@ for_window [window_type="menu"] floating enable
 no_focus [class=”plasmashell”]
 ```
 
+
+Finally, create `wm.sh` to replace KWIN automatically
+```
+mkdir -p ~/.config/plasma-workspace/env/
+nano ~/.config/plasma-workspace/env/wm.sh
+```
+
+and add 
+
+```
+# Use i3 as the window manager instead of Kwin 
+export KDEWM=/usr/bin/i3
+```
+
+Now you can reboot, and i3 will be integrated with plasma.
+
+
 You can disable most of the Desktop Effects in system settings if you like, most are useless with tiling
 
 add the following to your config to restore your wallpaper with nitrogen
