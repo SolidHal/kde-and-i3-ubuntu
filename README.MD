@@ -1,6 +1,6 @@
 
 
-Install i3 using the following:
+Install i3 (gaps) using the following:
 
 ```
 #Install dependencies
@@ -74,3 +74,7 @@ exec --no-startup-id nitrogen --restore
 
 
 You can install Compton to get transparancy and blur effects
+
+Sources: 
+https://gist.github.com/dabroder/813a941218bdb164fb4c178d464d5c23
+https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8
