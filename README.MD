@@ -89,6 +89,9 @@ add the following to your config to restore your wallpaper with nitrogen
 exec --no-startup-id nitrogen --restore
 ```
 
+If you are experiencing screen tearing in firefox, enable this in about:config
+`layers.acceleration.force-enabled`
+
 
 You can install Compton to get transparancy and blur effects
 
